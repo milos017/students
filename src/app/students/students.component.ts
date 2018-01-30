@@ -8,14 +8,19 @@ import { STUDENTS } from '../mock-students';
   styleUrls: ['./students.component.css']
 })
 export class StudentsComponent implements OnInit {
-students = STUDENTS;
+allStudents = STUDENTS;
+SelectedStudent: Student;
 
 student: Student = {
   id: 1,
-  name: 'Petar Petrovic 2'
+  name: 'Petar Petrovic'
 };
 //student = 'Petar Petrovic';
 
+onSelectedStudent(student) {
+
+this.selectedStudent = student;
+}
 
   constructor() { }
 

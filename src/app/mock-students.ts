@@ -10,5 +10,5 @@ export const STUDENTS: Student[] = [
   { id:7, name: 'Ivana Petrovic' },
   { id:8, name: 'Jovana Nikolic' },
   { id:9, name: 'Luka Cosic' },
-  { id:10, name: 'Marija Jeremic' },
+  { id:10, name: 'Marija Jeremic' }
 ]
