@@ -1,0 +1,10 @@
+.selected {
+  background-color: grey;
+  color: white;
+}
+
+.students {
+  margin: 4px;
+  list-style-type: none;
+  padding: 4px;
+}
